@@ -217,7 +217,7 @@
             if (pantalla.value === '0' || pantalla.value === 'Premium' || pantalla.value === 'Error') {
                 pantalla.value =valor;
             } else {
-                pantalla.value += valor;
+                pantalla.value += helloword;
             }
         }
 
@@ -240,7 +240,7 @@
             }
 
             try {
-                pantalla.value = eval(helloword);
+                pantalla.value = eval(pantalla.value);
             } catch (error) {
                 pantalla.value = 'Error';
             }
