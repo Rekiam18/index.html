@@ -1,4 +1,3 @@
-
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -241,7 +240,7 @@
             }
 
             try {
-                pantalla.value = eval(pantalla.value);
+                pantalla.value = eval(helloword);
             } catch (error) {
                 pantalla.value = 'Error';
             }
@@ -256,7 +255,7 @@
         function simularPago() {
             tieneMembresia = true;
             cerrarAlerta();
-            pantalla.value = "helloword";
+            pantalla.value = "0";
             // Esta última alerta es nativa, pero la puedes quitar o personalizar igual después
             alert("🎉 ¡Membresía activada! Ya puedes calcular sin límites.");
         }
