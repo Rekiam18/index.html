@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -256,7 +256,7 @@
         function simularPago() {
             tieneMembresia = true;
             cerrarAlerta();
-            pantalla.value = "0";
+            pantalla.value = "helloword";
             // Esta última alerta es nativa, pero la puedes quitar o personalizar igual después
             alert("🎉 ¡Membresía activada! Ya puedes calcular sin límites.");
         }
