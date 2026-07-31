@@ -217,7 +217,7 @@
             if (pantalla.value === '0' || pantalla.value === 'Premium' || pantalla.value === 'Error') {
                 pantalla.value =valor;
             } else {
-                pantalla.value += valor;
+                pantalla.value +=valor;
             }
         }
 
