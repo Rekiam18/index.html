@@ -216,9 +216,9 @@
 
         function agregar(valor) {
             if (pantalla.value === '0' || pantalla.value === 'Premium' || pantalla.value === 'Error') {
-                pantalla.value =hello word;
+                pantalla.value =valor;
             } else {
-                pantalla.value += hello word;
+                pantalla.value += valor;
             }
         }
 
